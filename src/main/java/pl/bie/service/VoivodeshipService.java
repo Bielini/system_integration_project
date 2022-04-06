@@ -10,6 +10,6 @@ public interface VoivodeshipService {
 
     void printData();
 
-    void save();
+    void save(String fileName);
 
 }

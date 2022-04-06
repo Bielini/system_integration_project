@@ -1,9 +1,6 @@
 package pl.bie.service.impl;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 import pl.bie.model.Voivodeship;
 import pl.bie.service.VoivodeshipService;
@@ -12,6 +9,12 @@ import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -29,7 +32,7 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
             System.out.println("Files :" + paths);
             for (String path : paths) {
 
-                Document doc = docPreparation(path, dbf);
+                Document doc = docPreparation("xmlfiles/"+path, dbf);
 
                 NodeList list = doc.getElementsByTagName("unitData");
 
@@ -92,9 +95,85 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
     }
 
     @Override
-    public void save() {
-//TODO
+    public void save(String fileName) {
+        if (voivodeshipList.size() == 0) {
+            System.err.println("First call read!");
+        } else {
+            try {
+
+                Document document = configureAndCreateDocument();
+
+                Element root = createTitle(document);
+
+
+                for (Voivodeship voivodeship : this.voivodeshipList) {
+
+
+                    Element category = document.createElement("category");
+                    root.appendChild(category);
+
+                    Attr attr = document.createAttribute("sourceFile");
+                    attr.setValue(voivodeship.getSourceFile());
+                    category.setAttributeNode(attr);
+
+                    Element voivodeshipName = document.createElement("voivodeship");
+                    category.appendChild(voivodeshipName);
+
+                    Attr attr2 = document.createAttribute("name");
+                    attr2.setValue(voivodeship.getName());
+                    voivodeshipName.setAttributeNode(attr2);
+
+                    for (Map.Entry<String, Double> stringDoubleEntry : voivodeship.getValueByYears().entrySet()) {
+                        Element yearValue = document.createElement("yearValue");
+                        voivodeshipName.appendChild(yearValue);
+
+
+                        Element year = document.createElement("year");
+                        year.appendChild(document.createTextNode(stringDoubleEntry.getKey()));
+                        yearValue.appendChild(year);
+
+                       
+                        Element value = document.createElement("value");
+                        value.appendChild(document.createTextNode(String.valueOf(stringDoubleEntry.getValue())));
+                        yearValue.appendChild(value);
+                    }
+                    
+                    
+                    createAndTransformToXML(fileName, document);
+                    
+                }
+                System.out.println("Done creating XML File");
+            } catch (ParserConfigurationException | TransformerException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
+
+
+    private Document configureAndCreateDocument() throws ParserConfigurationException {
+        DocumentBuilderFactory documentFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder documentBuilder = documentFactory.newDocumentBuilder();
+        return documentBuilder.newDocument();
+    }
+
+    private Element createTitle(Document document) {
+        Element root = document.createElement("statistics");
+        document.appendChild(root);
+        return root;
+    }
+
+    private void createAndTransformToXML(String fileName, Document document) throws TransformerException {
+        DOMSource domSource = new DOMSource(document);
+        StreamResult streamResult = new StreamResult(new File(fileName));
+        transformDocument(domSource, streamResult);
+    }
+
+    private void transformDocument(DOMSource domSource, StreamResult streamResult) throws TransformerException {
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        Transformer transformer = transformerFactory.newTransformer();
+        transformer.setOutputProperty(OutputKeys.INDENT,"yes");
+        transformer.transform(domSource, streamResult);
+    }
 
 }

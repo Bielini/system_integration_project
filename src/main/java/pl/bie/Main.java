@@ -20,9 +20,9 @@ public class Main {
 
 
 
-
-        voivodeshipService.printData();
         List<Voivodeship> read = voivodeshipService.read(paths);
+//        voivodeshipService.printData();
+        voivodeshipService.save("combineData.xml");
 
     }
 }
