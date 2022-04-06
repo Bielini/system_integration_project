@@ -13,7 +13,7 @@ import java.util.Map;
 public class Voivodeship {
 
     private String name;
-    private Map<String,Integer> partiesAmountByYears ;
+    private Map<String,Double> partiesAmountByYears ;
 
 
 }
