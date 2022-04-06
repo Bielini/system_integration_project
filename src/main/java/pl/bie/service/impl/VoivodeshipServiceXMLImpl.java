@@ -21,27 +21,28 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
     private final List<Voivodeship> voivodeshipList = new ArrayList<>();
 
     @Override
-    public List<Voivodeship> read(String path) {
+    public List<Voivodeship> read(List<String> paths) {
 
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
         try {
-            Document doc = docPreparation(path, dbf);
+            System.out.println("Files :" + paths);
+            for (String path : paths) {
 
-            System.out.println("Root Element :" + doc.getDocumentElement().getNodeName());
+                Document doc = docPreparation(path, dbf);
 
-            NodeList list = doc.getElementsByTagName("unitData");
+                NodeList list = doc.getElementsByTagName("unitData");
 
-            for (int temp = 0; temp < list.getLength(); temp++) {
+                for (int temp = 0; temp < list.getLength(); temp++) {
+                    Node node = list.item(temp);
 
-                Node node = list.item(temp);
+                    if (node.getNodeType() == Node.ELEMENT_NODE) {
+                        Element element = (Element) node;
 
-                if (node.getNodeType() == Node.ELEMENT_NODE) {
-                    Element element = (Element) node;
+                        String name = element.getElementsByTagName("name").item(0).getTextContent();
 
-                    String name = element.getElementsByTagName("name").item(0).getTextContent();
-
-                    voivodeshipList.add(new Voivodeship(name, getAmountPerYear(element)));
+                        voivodeshipList.add(new Voivodeship(path, name, getAmountPerYear(element)));
+                    }
                 }
             }
 
@@ -51,6 +52,14 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
         }
 
         return Collections.emptyList();
+    }
+
+    private Document docPreparation(String path, DocumentBuilderFactory dbf) throws ParserConfigurationException, SAXException, IOException {
+        dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+        DocumentBuilder db = dbf.newDocumentBuilder();
+        Document doc = db.parse(new File(path));
+        doc.getDocumentElement().normalize();
+        return doc;
     }
 
     private Map<String, Double> getAmountPerYear(Element element) {
@@ -66,13 +75,6 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
         return amountPerYear;
     }
 
-    private Document docPreparation(String path, DocumentBuilderFactory dbf) throws ParserConfigurationException, SAXException, IOException {
-        dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-        DocumentBuilder db = dbf.newDocumentBuilder();
-        Document doc = db.parse(new File(path));
-        doc.getDocumentElement().normalize();
-        return doc;
-    }
 
     @Override
     public void printData() {
@@ -80,11 +82,19 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
             System.err.println("First call read!");
         } else {
             for (Voivodeship voivodeship : voivodeshipList) {
+                System.out.println(voivodeship.getSourceFile());
                 System.out.println(voivodeship.getName());
-                voivodeship.getPartiesAmountByYears()
+                voivodeship.getValueByYears()
                         .forEach((key, value) -> System.out.println("Year: " + key + " amount: " + value));
             }
         }
 
     }
+
+    @Override
+    public void save() {
+//TODO
+    }
+
+
 }

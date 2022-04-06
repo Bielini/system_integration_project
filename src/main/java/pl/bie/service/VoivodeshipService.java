@@ -6,7 +6,10 @@ import java.util.List;
 
 public interface VoivodeshipService {
 
-    List<Voivodeship> read(String path);
+    List<Voivodeship> read(List<String> paths);
+
     void printData();
+
+    void save();
 
 }

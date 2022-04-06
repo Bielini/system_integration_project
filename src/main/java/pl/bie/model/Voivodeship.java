@@ -12,8 +12,9 @@ import java.util.Map;
 @NoArgsConstructor
 public class Voivodeship {
 
+    private String sourceFile;
     private String name;
-    private Map<String,Double> partiesAmountByYears ;
+    private Map<String,Double> valueByYears ;
 
 
 }
