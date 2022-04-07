@@ -22,15 +22,21 @@ import java.util.*;
 public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
 
     private final List<Voivodeship> voivodeshipList = new ArrayList<>();
+    final List<String> paths = List.of(
+            "restaurantsIncome.xml"
+            , "massiveParties.xml"
+            , "carAccidents.xml"
+            , "averageSalary.xml"
+            , "deathsNumber.xml");
 
     @Override
-    public List<Voivodeship> read(List<String> paths) {
+    public List<Voivodeship> read() {
 
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 
         try {
-            System.out.println("Files :" + paths);
-            for (String path : paths) {
+            System.out.println("Files :" + this.paths);
+            for (String path : this.paths) {
 
                 Document doc = docPreparation("xmlfiles/"+path, dbf);
 
@@ -95,7 +101,7 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
     }
 
     @Override
-    public void save(String fileName) {
+    public void save() {
         if (voivodeshipList.size() == 0) {
             System.err.println("First call read!");
         } else {
@@ -139,7 +145,7 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
                     }
                     
                     
-                    createAndTransformToXML(fileName, document);
+                    createAndTransformToXML("combineData.xml", document);
                     
                 }
                 System.out.println("Done creating XML File");

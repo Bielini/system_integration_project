@@ -3,21 +3,18 @@ package pl.bie;
 import pl.bie.executor.HibernateExecutor;
 import pl.bie.executor.ORMExecutor;
 import pl.bie.service.VoivodeshipService;
+import pl.bie.service.impl.VoivodeshipServiceHibernateImpl;
 import pl.bie.service.impl.VoivodeshipServiceXMLImpl;
 
 import java.util.List;
 
 public class MainConsole {
     public static void main(String[] args) {
-        VoivodeshipService voivodeshipService = new VoivodeshipServiceXMLImpl();
+//        VoivodeshipService voivodeshipService = new VoivodeshipServiceXMLImpl();
+        VoivodeshipService voivodeshipService = new VoivodeshipServiceHibernateImpl();
         ORMExecutor jpaEx = new HibernateExecutor();
 
-        final List<String> paths = List.of(
-                "restaurantsIncome.xml"
-                , "massiveParties.xml"
-                , "carAccidents.xml"
-                , "averageSalary.xml"
-                , "deathsNumber.xml");
+
 
 
 //        boolean programRunning = true;
@@ -47,7 +44,7 @@ public class MainConsole {
 //            }
 //        }
 
-            jpaEx.bootstrap();
+            voivodeshipService.save();
 
 //        voivodeshipService.read(paths);
 //        voivodeshipService.printData();
