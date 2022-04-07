@@ -12,7 +12,7 @@ import javax.persistence.*;
 
 @AllArgsConstructor
 @Entity
-@Table(name = "restaurantsincome")
+@Table(name = "combinedata")
 public class RecordEntity {
 
     @Id @GeneratedValue

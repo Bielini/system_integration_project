@@ -12,16 +12,14 @@ import pl.bie.model.Voivodeship;
 import pl.bie.service.VoivodeshipService;
 import pl.bie.service.impl.VoivodeshipServiceXMLImpl;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 
 public class HibernateExecutor implements ORMExecutor {
 
     private static SessionFactory factory;
     private static VoivodeshipService voivodeshipService;
-
+    private final List<RecordEntity> recordsList = new ArrayList<>();
     @Override
     public void bootstrap() {
         try {
@@ -45,12 +43,35 @@ public class HibernateExecutor implements ORMExecutor {
     @Override
     public void read() {
         initializeCheck();
+        Session session = factory.openSession();
+        Transaction tx = null;
 
+
+        try {
+            tx = session.beginTransaction();
+            List recordEntities = session.createQuery("FROM RecordEntity ").list();
+            for (Iterator iterator = recordEntities.iterator(); iterator.hasNext();){
+                RecordEntity recordEntity = (RecordEntity) iterator.next();
+
+                recordsList.add(recordEntity);
+            }
+            tx.commit();
+        } catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
     }
 
     @Override
     public void print() {
         initializeCheck();
+        if (recordsList.size() == 0) {
+            System.err.println("First call read!");
+        } else {
+            recordsList.forEach(System.out::println);
+        }
 
     }
 
