@@ -3,6 +3,8 @@ package pl.bie.executor;
 public interface ORMExecutor {
 
     void bootstrap();
-    void execute();
-    void shutDown();
+    void save();
+    void read();
+    void print();
+
 }

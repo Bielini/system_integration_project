@@ -8,7 +8,7 @@ public interface VoivodeshipService {
 
     List<Voivodeship> read();
 
-    void printData();
+    void printAll();
 
     void save();
 

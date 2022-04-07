@@ -5,26 +5,35 @@ import pl.bie.executor.ORMExecutor;
 import pl.bie.model.Voivodeship;
 import pl.bie.service.VoivodeshipService;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class VoivodeshipServiceHibernateImpl implements VoivodeshipService {
 
     private final HibernateExecutor hibernateExecutor= new HibernateExecutor();
-    private final VoivodeshipService voivodeshipService = new VoivodeshipServiceXMLImpl();
+
+    private final List<Voivodeship> voivodeshipList = new ArrayList<>();
 
     @Override
     public List<Voivodeship> read() {
+        hibernateExecutor.bootstrap();
+        hibernateExecutor.read();
         return null;
     }
 
     @Override
-    public void printData() {
-
+    public void printAll() {
+        hibernateExecutor.bootstrap();
+        hibernateExecutor.print();
     }
+
+
 
     @Override
     public void save() {
         hibernateExecutor.bootstrap();
-        hibernateExecutor.save(voivodeshipService.read());
+        hibernateExecutor.save();
     }
+
+
 }

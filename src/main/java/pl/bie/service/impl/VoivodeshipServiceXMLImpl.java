@@ -86,7 +86,7 @@ public class VoivodeshipServiceXMLImpl implements VoivodeshipService {
 
 
     @Override
-    public void printData() {
+    public void printAll() {
         if (voivodeshipList.size() == 0) {
             System.err.println("First call read!");
         } else {
