@@ -46,7 +46,6 @@ public class HibernateExecutor implements ORMExecutor {
         Session session = factory.openSession();
         Transaction tx = null;
 
-
         try {
             tx = session.beginTransaction();
             List recordEntities = session.createQuery("FROM RecordEntity ").list();

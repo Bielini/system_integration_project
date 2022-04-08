@@ -1,11 +1,13 @@
 package pl.bie;
 
+import jakarta.xml.ws.Endpoint;
+import pl.bie.api.soap.SOAPInterfaceImpl;
 import pl.bie.service.VoivodeshipService;
 import pl.bie.service.impl.VoivodeshipServiceHibernateImpl;
 import pl.bie.service.impl.VoivodeshipServiceXMLImpl;
 
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class MainConsole {
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
@@ -13,19 +15,22 @@ public class MainConsole {
 
     }
 
-    private static void mainMenu(Scanner scanner) {
 
+
+    private static void mainMenu(Scanner scanner) {
 
         while (true) {
             System.out.println("Menu");
             System.out.println("1 - Xml Functions");
             System.out.println("2 - Database Functions");
+            System.out.println("3 - SOAP start");
             System.out.println("q - exit");
             String chosenOption = scanner.nextLine();
 
             switch (chosenOption) {
                 case "1" -> subMenu(scanner, new VoivodeshipServiceXMLImpl());
                 case "2" -> subMenu(scanner, new VoivodeshipServiceHibernateImpl());
+                case "3" -> soapStart(scanner);
                 case "q" -> System.exit(0);
                 default -> System.out.println("Wrong option!");
             }
@@ -55,5 +60,28 @@ public class MainConsole {
         }
     }
 
+    private static void soapStart(Scanner scanner) {
+        Endpoint publish = Endpoint.publish("http://localhost:7779/ws/first", new SOAPInterfaceImpl());
+        System.out.println("SOAP api is running...");
+        System.out.println("b - back    q - exit");
 
+        while(true){
+            String chosenOption = scanner.nextLine();
+            switch (chosenOption) {
+                case "b" -> {
+                    publish.stop();
+                    System.out.println("SOAP api is stopped.");
+                    mainMenu(scanner);
+                }
+                case "q" -> {
+                    publish.stop();
+                    System.out.println("SOAP api is stopped.");
+                    System.exit(0);
+                }
+                default -> {
+                    System.out.println("Wrong option!");
+                }
+            }
+        }
+    }
 }
