@@ -1,5 +1,6 @@
 package pl.bie.service.impl;
 
+import pl.bie.entity.RecordEntity;
 import pl.bie.executor.HibernateExecutor;
 import pl.bie.executor.ORMExecutor;
 import pl.bie.model.Voivodeship;
@@ -19,6 +20,7 @@ public class VoivodeshipServiceHibernateImpl implements VoivodeshipService {
         hibernateExecutor.bootstrap();
         hibernateExecutor.read();
         return null;
+
     }
 
     @Override

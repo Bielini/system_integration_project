@@ -16,7 +16,6 @@ public interface SOAPInterface {
     @WebMethod
     String getSpecificCategoryData(String name);
 
-
     @WebMethod
     String getSpecificYearData(String year);
 

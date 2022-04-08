@@ -1,5 +1,6 @@
 package pl.bie.service;
 
+import pl.bie.entity.RecordEntity;
 import pl.bie.model.Voivodeship;
 
 import java.util.List;

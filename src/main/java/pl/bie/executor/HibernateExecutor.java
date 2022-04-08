@@ -41,7 +41,7 @@ public class HibernateExecutor implements ORMExecutor {
     }
 
     @Override
-    public void read() {
+    public List<RecordEntity> read() {
         initializeCheck();
         Session session = factory.openSession();
         Transaction tx = null;
@@ -55,12 +55,15 @@ public class HibernateExecutor implements ORMExecutor {
                 recordsList.add(recordEntity);
             }
             tx.commit();
+            return this.recordsList;
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             e.printStackTrace();
         } finally {
             session.close();
         }
+
+        return Collections.emptyList();
     }
 
     @Override

@@ -1,0 +1,140 @@
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.exe
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.deps.json
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.json
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.dev.json
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\ref\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Private.ServiceModel.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Xml.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Duplex.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Http.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.NetTcp.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Primitives.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Security.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.AssemblyReference.cache
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfoInputs.cache
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfo.cs
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CoreCompileInputs.cache
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CopyComplete
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\ref\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+C:\Users\student.WIN-B7OPO92UO3Q\source\repos\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.genruntimeconfig.cache
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.exe
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.deps.json
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.json
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.dev.json
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\ref\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Private.ServiceModel.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Xml.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Duplex.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Http.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.NetTcp.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Primitives.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Security.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.AssemblyReference.cache
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfoInputs.cache
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfo.cs
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CoreCompileInputs.cache
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CopyComplete
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\ref\IS_Lab5_SOAPCS.dll
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+C:\Users\student.WIN-B7OPO92UO3Q\Desktop\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.genruntimeconfig.cache
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.exe
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.deps.json
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.json
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.dev.json
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Private.ServiceModel.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Xml.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Duplex.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Http.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.NetTcp.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Primitives.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Security.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.AssemblyReference.cache
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfoInputs.cache
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfo.cs
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CoreCompileInputs.cache
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CopyComplete
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\refint\IS_Lab5_SOAPCS.dll
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.genruntimeconfig.cache
+C:\Users\piotr\Desktop\Studia\Semestr 6\Integracja systemów\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\ref\IS_Lab5_SOAPCS.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.exe
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.deps.json
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.json
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.runtimeconfig.dev.json
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Private.ServiceModel.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Cryptography.Xml.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Duplex.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Http.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.NetTcp.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Primitives.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.ServiceModel.Security.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.AssemblyReference.cache
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfoInputs.cache
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.AssemblyInfo.cs
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CoreCompileInputs.cache
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.csproj.CopyComplete
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\refint\IS_Lab5_SOAPCS.dll
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.pdb
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\IS_Lab5_SOAPCS.genruntimeconfig.cache
+D:\Projekty_Java\system_integration_project\soap_client\IS_Lab5_SOAPCS\IS_Lab5_SOAPCS\obj\Debug\net5.0\ref\IS_Lab5_SOAPCS.dll
