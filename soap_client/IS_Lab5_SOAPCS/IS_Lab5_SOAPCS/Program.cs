@@ -14,9 +14,9 @@ namespace IS_Lab5_SOAPCS
             SOAPInterfaceClient client = new SOAPInterfaceClient();
 
           //  string text = await client.getAllByNameAsync("Lubelskie");
-          //  string text = await client.getSpecificCategoryDataAsync("averageSalary");
+            string text = await client.getSpecificCategoryDataAsync("averageSalary");
           
-            string text = await client.getSpecificYearDataAsync("2015");
+          //  string text = await client.getSpecificYearDataAsync("2015");
 
 
           

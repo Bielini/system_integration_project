@@ -9,6 +9,7 @@ import pl.bie.executor.ORMExecutor;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.net.ConnectException;
 import java.net.InetSocketAddress;
 import java.util.HashMap;
 import java.util.List;
@@ -21,7 +22,7 @@ public class RESTInterfaceImpl implements RESTInterface {
     private HttpExchange httpExchange;
 
     @Override
-    public void start() {
+    public void start() throws ConnectException {
         ormExecutor.bootstrap();
         List<RecordEntity> read = ormExecutor.read();
         int serverPort = 8000;

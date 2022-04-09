@@ -13,8 +13,10 @@ import pl.bie.service.impl.VoivodeshipServiceXMLImpl;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.net.ConnectException;
 import java.net.InetSocketAddress;
 import java.util.Scanner;
+
 public class MainConsole {
     public static void main(String[] args) {
         final Scanner scanner = new Scanner(System.in);
@@ -22,7 +24,6 @@ public class MainConsole {
 
 
     }
-
 
 
     private static void mainMenu(Scanner scanner) {
@@ -47,7 +48,7 @@ public class MainConsole {
         }
     }
 
-    private static void subMenu(Scanner scanner,VoivodeshipService voivodeshipService) {
+    private static void subMenu(Scanner scanner, VoivodeshipService voivodeshipService) {
 
 
         while (true) {
@@ -75,7 +76,7 @@ public class MainConsole {
         System.out.println("SOAP api is running...");
         System.out.println("b - back    q - exit");
 
-        while(true){
+        while (true) {
             String chosenOption = scanner.nextLine();
             switch (chosenOption) {
                 case "b" -> {
@@ -98,28 +99,33 @@ public class MainConsole {
 
     private static void restStart(Scanner scanner) {
         RESTInterface restInterface = new RESTInterfaceImpl();
-        restInterface.start();
-        System.out.println("Rest api is running...");
-        System.out.println("q - exit");
+        try {
+            restInterface.start();
 
-        while(true){
-            String chosenOption = scanner.nextLine();
-            switch (chosenOption) {
-                case "b" -> {
-                    restInterface.stop();
-                    System.out.println("REST api is stopped.");
-                    mainMenu(scanner);
-                }
-                case "q" -> {
-                    restInterface.stop();
-                    System.out.println("REST api is stopped.");
-                    System.out.println("App stopped...");
-                    System.exit(0);
-                }
-                default -> {
-                    System.out.println("Wrong option!");
+            System.out.println("Rest api is running...");
+            System.out.println("q - exit");
+
+            while (true) {
+                String chosenOption = scanner.nextLine();
+                switch (chosenOption) {
+                    case "b" -> {
+                        restInterface.stop();
+                        System.out.println("REST api is stopped.");
+                        mainMenu(scanner);
+                    }
+                    case "q" -> {
+                        restInterface.stop();
+                        System.out.println("REST api is stopped.");
+                        System.out.println("App stopped...");
+                        System.exit(0);
+                    }
+                    default -> {
+                        System.out.println("Wrong option!");
+                    }
                 }
             }
+        } catch (ConnectException e) {
+            System.err.println("Probably server is off!");
         }
     }
 }

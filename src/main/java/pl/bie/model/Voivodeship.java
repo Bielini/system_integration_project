@@ -17,4 +17,5 @@ public class Voivodeship {
     private Map<String,Double> valueByYears ;
 
 
+
 }

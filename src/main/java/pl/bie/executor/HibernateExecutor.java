@@ -109,9 +109,10 @@ public class HibernateExecutor implements ORMExecutor {
                         recordEntity.setValue(Float.parseFloat(String.valueOf(stringDoubleEntry.getValue())));
                         session.save(recordEntity);
                         transaction.commit();
-                        session.close();
+
                     }
                 }
+                session.close();
                 System.out.println("Data successfully added!");
             } catch (HibernateException e) {
                 if (transaction != null) transaction.rollback();
