@@ -1,18 +1,12 @@
 package pl.bie.api.rest;
 
-import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.mysql.cj.xdevapi.JsonString;
 import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import lombok.extern.slf4j.Slf4j;
 import pl.bie.entity.RecordEntity;
 import pl.bie.executor.HibernateExecutor;
 import pl.bie.executor.ORMExecutor;
 
-import javax.jws.soap.SOAPBinding;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
@@ -76,7 +70,7 @@ public class RESTInterfaceImpl implements RESTInterface {
         server.createContext("/api/info", (exchange -> {
 
             System.out.println("Info url called");
-            String respText ="Available urls: \n" +
+            String respText = "Available urls: \n" +
                     "/api/statistics - print all data\n" +
                     "/api/statistics/id?id={index} - print data with index\n" +
                     "/api/info - print method info";
